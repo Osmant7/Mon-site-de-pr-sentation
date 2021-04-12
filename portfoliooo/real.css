@@ -1,0 +1,214 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+nav{
+    height: 80px;
+}
+header{
+    margin-bottom: 2px;
+}
+
+#moi{
+    background-image: url('fond.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    height: 700px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#laNav{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+#laNav > a {
+    color: white;
+}
+
+#Moi2{
+    text-align: center;
+}
+#Moi2 > p {
+    color: whitesmoke;
+    font-size: 3em;
+}
+
+.fa-home{
+    transition: all .2s ease-in-out;
+}
+
+.fa-home:hover {
+    color: rgb(5,109,176);
+    transform: scale(1.4);
+}
+
+.fa-id-card{
+    transition: all .2s ease-in-out;
+}
+
+.fa-id-card:hover{
+    color: rgb(5,109,176);
+    transform: scale(1.4);
+}
+
+.fa-project-diagram{
+    transition: all .2s ease-in-out;
+}
+
+.fa-project-diagram:hover{
+    color: rgb(5,109,176);
+    transform: scale(1.4);
+}   
+
+.fa-phone-square{
+    transition: all .2s ease-in-out;
+}
+
+.fa-phone-square:hover{
+    color: rgb(5,109,176);
+    transform: scale(1.4);
+}
+
+
+.card-img-top{
+    height: 200px;
+}
+
+.title{
+    margin-top: 2px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 100%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 39%, rgba(20,22,22,1) 45%, rgba(131,138,139,1) 100%);   
+    
+}
+.contactez-me{
+    margin-top: 30px;
+    margin-bottom: 2px;
+}
+h1{
+    color: whitesmoke;
+}
+
+.card{
+    margin-top: 5px;
+}
+#textMe{
+    width: 600px;
+    text-align: center;
+}
+#meCode{
+    width: 80%;
+}
+#proposMoi{
+    display: flex;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#toHover{
+    text-align: center;
+    background-color: black;
+    height: 28px;
+    width: 90px;
+    border-radius: 5px;
+    transition: all .2s ease-in-out; 
+}
+#toHover > a {
+    text-decoration: none;
+    color: white;
+}
+#toHover:hover{
+    background-color:rgb(53,149,166);
+    transform: scale(1.1); 
+}
+.projetButton{
+    transition: all .2s ease-in-out; 
+}
+.projetButton:hover{
+   transform: scale(1.1);
+}
+
+
+
+/* footer */
+.end{
+    height: 250px;
+    background-color: rgb(28,28,28);
+    /* justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+#linked{
+   background-color: rgb(28,28,28); 
+   display: flex;
+   justify-content: center;
+}
+#endDiv > div {
+    margin-bottom: 30px;
+}
+.fa-linkedin{
+    transition: all .2s ease-in-out;
+}
+.fa-linkedin:hover{
+    transform: scale(1.5);
+}
+
+#copy{
+    
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    color: white;
+}
+
+#copy > div{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+.fa-copyright{
+    margin-top: 5px;
+    margin-right: 2px;
+}
+
+#wf3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url('fondLearning.jpg');
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+}
+#wf3 > p{
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+@media screen and (max-width : 768px ){
+    #textMe{
+        display: none;
+    }
+    
+}

@@ -1,0 +1,33 @@
+#imagelogo{
+    height: 60px;
+}
+#barre{
+    position: relative;
+}
+#barre > p{
+    position: absolute;
+    top:6px;
+}
+#headnav{
+    display: flex;
+    justify-content: center;
+
+}
+.fa-sync-alt, .fa-trash-alt{
+    color:rgb(49,131,163);
+    border: 1px solid rgb(49,131,163);
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.buttoncheck{
+    display: flex;
+    justify-content: flex-end;
+}
+button{
+    color:rgb(49,131,163);
+    border: 1px solid rgb(49,131,163);
+    padding: 3px;
+    border-radius: 3px;
+    background-color: white;
+}
